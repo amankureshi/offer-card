@@ -56,3 +56,43 @@ body {
     font-size: 1rem;
     margin-top: 25px;
 }
+
+.card-subscribe-btn {
+    display: inline-block;
+    padding: 15px 0;
+    background-color: #FF6B6B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.card-subscribe-btn:hover {
+    background: #ff4d4d;
+}
+
+.card-ribbon-wrap {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+
+.card-ribbon {
+    width: 230px;
+    font-size: 0.918rem;
+    text-align: center;
+    padding: 8px 0;
+    background: #FF6B6B;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+}
